@@ -39,7 +39,6 @@ with a PID Controller block, gravity torque via sin(θ) feedback,
 and dual integrators for the plant physics. Used the Simulink PID 
 Tuner to explore the trade-off between response speed and stability.
 
-![Simulink Scope Output](Simulation/Scope Results.png)
 
 **Hardware starting gains: Kp=200, Ki=0, Kd=6**
 
