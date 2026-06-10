@@ -31,7 +31,7 @@ Kp=200 with Kd=6 produced stable damped oscillation settling within
 1.5 seconds. High Kd (≥25) over-damped the system eliminating 
 corrective response entirely.
 
-![Baseline PID Response](simulation/run2_high_kp.png)
+![Baseline PID Response](Simulation/run2_high_kp.png)
 
 ### Simulink Block Diagram Model
 Built a full closed-loop Simulink model of the inverted pendulum 
@@ -39,7 +39,7 @@ with a PID Controller block, gravity torque via sin(θ) feedback,
 and dual integrators for the plant physics. Used the Simulink PID 
 Tuner to explore the trade-off between response speed and stability.
 
-![Simulink Scope Output](simulation/simulink_working_scope.png)
+![Simulink Scope Output](Simulation/simulink_working_scope.png)
 
 **Hardware starting gains: Kp=200, Ki=0, Kd=6**
 
